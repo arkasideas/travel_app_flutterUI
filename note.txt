@@ -1,0 +1,3 @@
+Part 1 : https://www.youtube.com/watch?v=3ST2Rl6mL74
+Part 2 : https://www.youtube.com/watch?v=JqHEeUFV-WE
+Flutter version 3.10.6
