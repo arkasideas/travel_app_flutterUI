@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app_ui/widgets/travel_blog.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -19,6 +20,7 @@ class HomePage extends StatelessWidget {
         ],
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
             padding: const EdgeInsets.only(left: 15),
@@ -29,6 +31,10 @@ class HomePage extends StatelessWidget {
                 fontSize: 36,
               ),
             ),
+          ),
+          Expanded(
+            flex: 2,
+            child: TravelBlog(),
           ),
           Padding(
             padding: const EdgeInsets.all(15),
@@ -50,6 +56,10 @@ class HomePage extends StatelessWidget {
                 ),
               ],
             ),
+          ),
+          Expanded(
+            flex: 1,
+            child: Placeholder(),
           ),
         ],
       ),
