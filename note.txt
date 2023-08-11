@@ -1,4 +1,4 @@
 Part 1 : https://www.youtube.com/watch?v=3ST2Rl6mL74
-Menit : 33:23
 Part 2 : https://www.youtube.com/watch?v=JqHEeUFV-WE
+Menit : 14:39
 Flutter version 3.10.6

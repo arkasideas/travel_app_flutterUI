@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app_ui/widgets/most_popular.dart';
 import 'package:travel_app_ui/widgets/travel_blog.dart';
 
 class HomePage extends StatelessWidget {
@@ -59,7 +60,7 @@ class HomePage extends StatelessWidget {
           ),
           Expanded(
             flex: 1,
-            child: Placeholder(),
+            child: MostPopular(),
           ),
         ],
       ),
